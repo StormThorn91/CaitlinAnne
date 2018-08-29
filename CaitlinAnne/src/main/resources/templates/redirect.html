@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>redirect</title>
+    <script>
+        function redirect() {
+            var redirectValue = document.getElementById('redirectValue').value;
+            if (redirectValue == 'contactSubmit') {
+                window.location = '/home';
+            }
+        }
+    </script>
+</head>
+<body onload="redirect()">
+Redirecting...
+</body>
+</html>
